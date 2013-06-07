@@ -7,6 +7,7 @@ Tech's used
 PHP,
 HTML,
 CSS,
+Java Script,
 jQuery,
 Skitter(Image transition jQuery plugin),
 AJAX.
