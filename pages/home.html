@@ -1,0 +1,83 @@
+<script>
+		
+			var box_skitter_large = null;
+			$(document).ready(function() {
+				$('.box_skitter_large').skitter({
+					numbers_align: "center", 
+ 					dots: true,  
+ 					focus: true, 
+ 					focus_position: "leftTop", 
+ 					controls: true, 
+ 					progressbar: true, 
+ 					progressbar_css: { 
+						top:'10px', 
+						left:'730px', 
+						height:10, 
+						borderRadius:'2px', 
+						width:200, 
+						backgroundColor:'#000', 
+						opacity:.7 
+					}, 
+ 					animateNumberOver: { 'backgroundColor':'#555' }, 
+ 					enable_navigation_keys: true, 
+					onLoad: function(self) {
+						if (this.thumbs) $('.border-skitter').height(350);
+						box_skitter_large = self;
+					}
+				});
+			});
+		
+</script>
+				<div class="box_skitter box_skitter_large">
+				    <ul>
+				        <li>
+				            <a href="http://thiagosf.net"><img src="images/001.jpg" class="block" /></a>
+        				</li>
+        				<li>
+				            <a href="http://cakephp.org"><img src="images/002.jpg" class="cube" /></a>
+				        </li>
+				        <li>
+				            <a href="http://jquery.com"><img src="images/003.jpg" class="default" /></a>
+				        </li>
+				    </ul>
+				</div>
+                <div class="description">
+	                <p class="title">What We Produce?</p>
+                	<div class="left">
+                    	<img src="images/cup1.png" height="250px"/>
+                        <p>Plain</p>
+                        <span>A simple and beautiful white coloured cup for the purpose of drinking water.</span>
+                    </div>
+                	<div class="middle">
+                    	<img src="images/cup2.png" height="250px"/>
+                        <p>Single Color</p>
+                        <span>A cool, yet stylish designs in a single color for drinking tea, coffee etc.</span>
+                    </div>
+                	<div class="right">
+                    	<img src="images/cup3.png" height="250px"/>
+                        <p>Multi Color</p>
+                        <span>The most complex and elegant designs for the purpose of drinking juice etc.</span>
+                    </div>
+                </div>
+                <div class="client-wrapper">
+                	<div class="client">
+                    	<p>To Whom Do We Produce?</p>
+                        <ul>
+	                        <li clas="col1">
+	                        	<img src="images/col1.png" height="130" />
+	                        </li>
+	                        <li clas="col2">
+	                        	<img src="images/col2.png" height="130" />
+	                        </li>
+	                        <li clas="col3">
+	                        	<img src="images/col3.png" height="130" />
+	                        </li>
+	                        <li clas="col4">
+	                        	<img src="images/col4.png" height="130" />
+	                        </li>
+	                        <li clas="col5">
+	                        	<img src="images/col5.png" height="130" />
+	                        </li>
+    					</ul>
+                    </div>
+                </div>

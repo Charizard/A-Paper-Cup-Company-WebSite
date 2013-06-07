@@ -1,0 +1,27 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+.about-wrapper{
+	position:relative;
+	width:90%;
+	height:100%;
+	margin:20px auto;
+}
+
+.about-wrapper h1{
+	font:40px/30px 'BebasNeue',Arial,Sans-Serif;
+	color:#2297c3;
+}
+
+.about-wrapper p{
+	font:20px/28px 'UbuntuRegular',Arial,Sans-Serif;
+	margin:0px 0px 10px 0px;
+	text-align:justify;
+}
+
+.about-wrapper p:first-letter{
+	font-weight:bold;
+	font-size:150%;
+	margin-left:100px;
+}

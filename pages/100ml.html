@@ -1,0 +1,34 @@
+<link rel="stylesheet" type="text/css" href="style/100ml.css" />
+
+<script>
+	$(document).ready(function(){
+		$('.product-bar #product-details').hide();
+	});
+	$('.product-bar #title-wrapper').click(function(){
+		$(this).next().slideToggle(500);	
+	});
+</script>
+
+<ul class="product-wrapper">
+	<li class="product-bar">
+    	<div id="title-wrapper">
+        	<a href="javascript: void()"><div id="product-title">100ml Plain</div></a>
+        </div>
+        <div id="product-details">
+        </div>
+    </li>
+	<li class="product-bar">
+    	<div id="title-wrapper">
+        	<a href="javascript: void()"><div id="product-title">100ml Single Color</div></a>
+        </div>
+        <div id="product-details">
+        </div>
+    </li>
+	<li class="product-bar">
+    	<div id="title-wrapper">
+        	<a href="javascript: void()"><div id="product-title">100ml Multi Color</div></a>
+        </div>
+        <div id="product-details">
+        </div>
+    </li>
+</ul>
